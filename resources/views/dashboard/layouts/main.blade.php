@@ -10,7 +10,18 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/dashboard.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">
+  <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
+
+  <style>
+    tri-toolbar [data-trix-button-grup="file-tools"] {
+      display: none;
+    }
+  </style>
   </head>
+
+  
   <body>
     
 @include('dashboard.layouts.header')
