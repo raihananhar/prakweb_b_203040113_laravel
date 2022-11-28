@@ -15,7 +15,7 @@
   <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
 
   <style>
-    tri-toolbar [data-trix-button-grup="file-tools"] {
+    trix-toolbar [data-trix-button-group="file-tools"] {
       display: none;
     }
   </style>
